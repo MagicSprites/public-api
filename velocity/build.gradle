@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id "org.jetbrains.kotlin.kapt"
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://repo.papermc.io/repository/maven-public' }
+
+    maven { url "https://repo.codemc.org/repository/maven-public/" }
+    maven {
+        url = "https://s01.oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+dependencies {
+    compileOnly 'com.velocitypowered:velocity-api:3.3.0-SNAPSHOT'
+    kapt 'com.velocitypowered:velocity-api:3.3.0-SNAPSHOT'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1-Beta'
+
+    implementation project(':common')
+}

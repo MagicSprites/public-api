@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id "io.papermc.paperweight.userdev" version "1.5.11"
+}
+
+group = 'net.querix.paper'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url "https://jitpack.io" }
+    maven { url "https://repo.codemc.io/repository/maven-public/" }
+}
+
+dependencies {
+    compileOnly 'com.mojang:brigadier:1.0.18'
+    paperweight.paperDevBundle("1.17.1-R0.1-SNAPSHOT")
+    compileOnly 'com.mojang:brigadier:1.0.18'
+    implementation "dev.jorel:commandapi-bukkit-shade:9.3.0"
+    implementation "dev.jorel:commandapi-bukkit-kotlin:9.3.0"
+    implementation project(':common')
+}
+
+test {
+    useJUnitPlatform()
+}
+kotlin {
+    jvmToolchain(17)
+}
