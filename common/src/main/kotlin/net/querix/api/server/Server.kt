@@ -1,6 +1,8 @@
 package net.querix.api.server
 
 import net.querix.api.server.game.GameInfo
+import net.querix.api.server.mode.ServerMode
+import net.querix.api.server.mode.ServerSubmode
 
 interface Server {
     /**
@@ -16,4 +18,7 @@ interface Server {
     fun players(): List<String>
 
     fun gameInfo(): GameInfo
+
+    fun mode(): ServerMode
+    fun submode(): ServerSubmode
 }
