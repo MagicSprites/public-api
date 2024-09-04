@@ -5,9 +5,6 @@ plugins {
     id "io.papermc.paperweight.userdev" version "1.5.11"
 }
 
-group = 'net.querix.paper'
-version = '1.0-SNAPSHOT'
-
 repositories {
     maven { url 'https://repo.papermc.io/repository/maven-public/' }
     maven { url "https://jitpack.io" }

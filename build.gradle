@@ -26,7 +26,7 @@ allprojects {
     apply plugin: 'org.jetbrains.kotlin.jvm'
 
     group = 'net.querix.api'
-    version = '0.3-DEV'
+    version = '0.4-DEV'
 
     repositories {
         mavenCentral()
