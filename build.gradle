@@ -1,12 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.9.22'
-    id 'com.github.johnrengelman.shadow' version '8.1.1'
-
 }
 
-jar {
-    dependsOn << shadowJar
-}
 
 dependencies {
     subprojects { Project pr ->
@@ -14,19 +9,12 @@ dependencies {
     }
 }
 
-shadowJar {
-    dependencies {
-        include dependency('.*:.*:.*')
-    }
-    archiveFileName.set('querixlib.jar')
-}
-
 allprojects {
     apply plugin: 'maven-publish'
     apply plugin: 'org.jetbrains.kotlin.jvm'
 
     group = 'net.querix.api'
-    version = '0.4-DEV'
+    version = '0.6-DEV'
 
     repositories {
         mavenCentral()
@@ -58,7 +46,9 @@ allprojects {
         }
         repositories {
             maven {
-                url "https://querix-maven.dynomake.space/releases"
+                url "https://querix-maven.dynomake.space/home"
+//                timeout Duration.ofMillis(120_0000)
+
                 allowInsecureProtocol = true
                 credentials {
                     username = project.findProperty("querix_artifactory_user") ?: System.getenv("CI_JOB_USER")

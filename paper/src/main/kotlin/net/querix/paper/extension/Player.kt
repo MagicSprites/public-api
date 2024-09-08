@@ -3,7 +3,7 @@ package net.querix.paper.extension
 import net.querix.paper.protocol.team.FakeTeamService
 import net.querix.api.user.User
 import net.querix.api.user.UserService
-import net.querix.api.util.lookupService
+import net.querix.api.util.resolve
 import org.bukkit.Bukkit
 import org.bukkit.GameMode
 import org.bukkit.attribute.Attribute
@@ -28,7 +28,7 @@ fun Player.reset(mode: GameMode) {
 
 fun Player.createDefaultTeam() {
     val user = user()
-    val team = lookupService<FakeTeamService>().createTeam(user.weight(), this.name)
+    val team = resolve<FakeTeamService>().createTeam(user.weight(), this.name)
 
     team.setPrefix(user.prefix())
     team.setSuffix(user.suffix())
@@ -38,7 +38,7 @@ fun Player.createDefaultTeam() {
 }
 
 fun Player.user() : User {
-    return lookupService<UserService>().getUser(name)
+    return resolve<UserService>().getUser(name)
 }
 
 fun User.bukkit() : Player {

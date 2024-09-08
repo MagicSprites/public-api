@@ -4,214 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b530163-f14f-4476-a344-5657998d5d61" name="Changes" comment="">
+    <list default="true" id="5b530163-f14f-4476-a344-5657998d5d61" name="Changes" comment="small changes">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/Querix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/command/Command.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/language/Language.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/language/LanguageService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/language/LanguageUtills.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/platform/Platform.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server/Server.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server/ServerService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server/game/GameInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server/game/GameServerState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server/search/ServerSearchMode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/user/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/user/UserService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/util/DependUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/util/NumberInit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/util/StringUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/CommandSender.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/Item.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/Java.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/Location.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/extension/Server.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/game/GameService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/game/GameState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/game/pack/InventoryPack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/gui/GuiStorage.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/gui/Menu.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/gui/impl/ChestGui.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/hotbar/Hotbar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/hotbar/HotbarBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/hotbar/HotbarService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/hotbar/item/HotbarItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/VisibleEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/VisibleEntityService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/FakeEntity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/FakeEntityBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/FakeEntityService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/data/FakeClickType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/data/FakeEntityType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/entity/data/FakeEquipmentItemSlot.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/Hologram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/HologramLine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/HologramService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/ModifiableHologram.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/ItemHologramLine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/TextHologramLine.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/team/FakeTeam.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/team/FakeTeamService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/scoreboard/Board.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/scoreboard/BoardAnimation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/scoreboard/BoardService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/scoreboard/animation/ShiftBoardAnimation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/BaseShopCategory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopCategory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopCurrency.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/LocationUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/PluginUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/actionitem/ActionItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/actionitem/ActionItemUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/potion/InstantPotionItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/potion/PotionCreator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/util/potion/PotionHeadColor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/AbstractArgumentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/AbstractCommandAPICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/AbstractCommandTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/Brigadier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/ChainableBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPILogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIVelocity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIVelocityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandAPIVersionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandMetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/CommandTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/Executable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/ExecutableCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/Execution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/IStringTooltip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/InternalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/InternalVelocityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/MojangMappedVersionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/PlatformExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/RegisteredCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/SafeVarHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/StringTooltip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/SuggestionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/Tooltip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/VelocityExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/AbstractArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/Argument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/ArgumentSuggestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/BooleanArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/CommandAPIArgumentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/CustomProvidedArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/DoubleArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/FloatArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/GreedyArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/GreedyStringArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/IntegerArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/Literal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/LiteralArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/LocationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/LongArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/MultiLiteral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/MultiLiteralArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/PreviewInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/Previewable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/SafeOverrideable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/SafeOverrideableArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/SafeSuggestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/StringArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/StringParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/SuggestionProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/SuggestionsBranch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/TextArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/arguments/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractBlockCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractConsoleCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractFeedbackForwardingCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractNativeProxyCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractProxiedCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/AbstractRemoteConsoleCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/VelocityCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/VelocityConsoleCommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/commandsenders/VelocityPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/BadLiteralException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/ConflictingPermissionsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/EmptyExecutorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/GreedyArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/InvalidCommandNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/InvalidRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/MissingCommandExecutorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/NBTAPINotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/OptionalArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/PaperAdventureNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/SpigotNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/UnimplementedArgumentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/WrapperCommandSyntaxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/exceptions/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/CommandArguments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/CommandExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ConsoleCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ConsoleExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ConsoleResultingCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ConsoleResultingExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ExecutorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/NormalExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/PlayerCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/PlayerExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/PlayerResultingCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/PlayerResultingExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ResultingCommandExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ResultingCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/ResultingExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/TypedExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/VelocityExecutionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/executors/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/Differs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/NMSMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/Overridden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/OverriddenRepeatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/Preprocessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/RequireField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/RequireFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/Unimplemented.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/preprocessor/UnimplementedRepeatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/FloatRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/IntegerRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/MathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/PreviewableFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/Rotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/java/dev/jorel/commandapi/wrappers/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/dev/jorel/commandapi/kotlindsl/CommandAPICommandDSL.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/dev/jorel/commandapi/kotlindsl/CommandAPIDSL.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/dev/jorel/commandapi/kotlindsl/CommandTreeDSL.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/dev/jorel/commandapi/kotlindsl/ExecutorDSL.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/velocity/src/main/kotlin/net/querix/velocity/ext/PlayerExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/paper/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/velocity/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,12 +39,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="public-api" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="public-api" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -284,27 +77,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.public-api [publish].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dynomake/IdeaProjects/public-api/velocity/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.public-api [publish].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dynomake/IdeaProjects/public-api/velocity/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/velocity/src/main/java" />
@@ -314,6 +107,7 @@
       <recent name="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/server" />
       <recent name="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/api/util/actionitem" />
       <recent name="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/api/util" />
       <recent name="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/util/actionitem" />
@@ -333,7 +127,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--info" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -369,11 +163,48 @@
       <workItem from="1724919330396" duration="5424000" />
       <workItem from="1724928108365" duration="2986000" />
       <workItem from="1724946395132" duration="4800000" />
+      <workItem from="1725300808131" duration="792000" />
+      <workItem from="1725386715633" duration="36000" />
+      <workItem from="1725457328696" duration="114000" />
+      <workItem from="1725460412046" duration="1627000" />
+      <workItem from="1725651449627" duration="549000" />
+      <workItem from="1725738226900" duration="2848000" />
     </task>
+    <task id="LOCAL-00001" summary="everything">
+      <option name="closed" value="true" />
+      <created>1725301150053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725301150053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: modes (sorry, but we will use it)">
+      <option name="closed" value="true" />
+      <created>1725462291951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725462291951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="small changes">
+      <option name="closed" value="true" />
+      <created>1725462392001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725462392001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="everything" />
+    <MESSAGE value="feat: modes (sorry, but we will use it)" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

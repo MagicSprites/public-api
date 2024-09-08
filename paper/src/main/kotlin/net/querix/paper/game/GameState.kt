@@ -1,6 +1,6 @@
 package net.querix.paper.game
 
-import net.querix.api.Querix
+import net.querix.api.DependencyContainer
 import net.querix.api.server.game.GameServerState
 import net.querix.paper.util.lookupBukkitPlugin
 import org.bukkit.Bukkit
@@ -15,7 +15,7 @@ abstract class GameState(val stateType: GameServerState) : Listener {
     abstract fun end()
 
     fun service() : GameService {
-        return Querix.lookupService<GameService>()
+        return DependencyContainer.resolve<GameService>()
     }
 
     fun nextState() {
