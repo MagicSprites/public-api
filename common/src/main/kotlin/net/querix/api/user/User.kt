@@ -37,6 +37,8 @@ interface User {
     fun level(): Int
     fun nextLevel(): Int
     fun experience(): Int
+    fun addExperience(experience: Int)
+    fun setLevel(level: Int)
 
     fun skin(): String
     fun skin(skin: String)
