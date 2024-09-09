@@ -5,7 +5,7 @@ import java.util.function.Consumer
 
 interface UserService {
 
-    fun lookupUniqueId(username: String): UUID
+    fun lookupUniqueId(username: String): UUID?
     fun getUser(id: UUID): User
     fun getUser(username: String): User
 
