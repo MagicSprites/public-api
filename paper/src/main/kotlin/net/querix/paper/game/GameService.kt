@@ -1,8 +1,10 @@
 package net.querix.paper.game
 
+import org.bukkit.Location
+
 interface GameService {
-    fun registerDefaultWaiting()
-    fun registerDefaultEnding()
+    fun registerDefaultWaiting(waitingLocation: Location)
+    fun registerDefaultEnding(endingLocation: Location)
 
     fun registerState(state: GameState)
     fun nextState()
