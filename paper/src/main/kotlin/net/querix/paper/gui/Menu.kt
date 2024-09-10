@@ -18,6 +18,11 @@ interface Menu {
         setItem(slot, item, action)
     }
 
+    @Deprecated(message = "use integer slot instead of enums",)
+    fun setItem(slot: Slots, item: ItemStack, action: Consumer<Player>) {
+        setItem(slot.ordinal, item, action)
+    }
+
     fun setItem(slot: Int, item: ItemStack, action: Consumer<Player>)
     fun open(player: Player)
     fun open(vararg players: Player) {
