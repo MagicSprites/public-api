@@ -20,4 +20,6 @@ interface GameService {
     fun winners(players: List<String>)
     fun winners(): List<String>
 
+    fun setTimerSeconds(seconds: Int)
+
 }
