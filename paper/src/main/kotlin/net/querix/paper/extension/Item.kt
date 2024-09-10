@@ -51,8 +51,8 @@ inline fun ItemStack.setLore(lore: List<String>): ItemStack {
     return this
 }
 
-inline fun ItemStack.setLore(vararg lore: String): ItemStack {
-    setLore(lore.toList())
+inline fun ItemStack.setLore(lore: String): ItemStack {
+    setLore(lore.split("\n"))
     return this
 }
 
@@ -64,7 +64,7 @@ inline fun ItemStack.addLore(lines: List<String>): ItemStack {
     return this
 }
 
-inline fun ItemStack.addLore(vararg lines: String) = addLore(lines.toList())
+inline fun ItemStack.addLore(lore: String) = addLore(lore.split("\n"))
 
 inline var ItemStack.lore: MutableList<String>
     get() = itemMeta.lore ?: mutableListOf()
