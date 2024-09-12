@@ -14,7 +14,11 @@ interface BaseShopCategory : ShopCategory {
         items.add(element)
     }
 
-    override fun id(): String {
+    override fun categoryId(): String {
         return id
+    }
+
+    override fun typeId(): String {
+        return typeId
     }
 }

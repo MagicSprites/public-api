@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b530163-f14f-4476-a344-5657998d5d61" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5b530163-f14f-4476-a344-5657998d5d61" name="Changes" comment="fix shop system #2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paper/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/paper/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/velocity/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/velocity/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/HologramLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/HologramLine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/ItemHologramLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/ItemHologramLine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/TextHologramLine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/protocol/hologram/line/TextHologramLine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/BaseShopCategory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/BaseShopCategory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopCategory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/paper/src/main/kotlin/net/querix/paper/shop/ShopCategory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,12 +81,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.public-api [generatePomFileForLibraryPublication].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.public-api [publish].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
@@ -114,14 +118,36 @@
       <recent name="$PROJECT_DIR$/common/src/main/kotlin/net/querix/api/language" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="net.querix.paper.gui" />
       <recent name="net.querix.api.shop" />
       <recent name="net.querix.api.util.potion" />
       <recent name="net.querix.api.hotbar.item" />
       <recent name="net.querix.api.hotbar" />
-      <recent name="net.querix.api.server.game" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.public-api [publish]">
+    <configuration name="public-api [generatePomFileForLibraryPublication]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generatePomFileForLibraryPublication" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="public-api [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,6 +173,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.public-api [publish]" />
+        <item itemvalue="Gradle.public-api [generatePomFileForLibraryPublication]" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +196,10 @@
       <workItem from="1725460412046" duration="1627000" />
       <workItem from="1725651449627" duration="549000" />
       <workItem from="1725738226900" duration="2848000" />
+      <workItem from="1725798478844" duration="777000" />
+      <workItem from="1725801715381" duration="280000" />
+      <workItem from="1725802750320" duration="556000" />
+      <workItem from="1725867587840" duration="11705000" />
     </task>
     <task id="LOCAL-00001" summary="everything">
       <option name="closed" value="true" />
@@ -194,7 +225,79 @@
       <option name="project" value="LOCAL" />
       <updated>1725462392001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: inject system">
+      <option name="closed" value="true" />
+      <created>1725801602865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725801602866</updated>
+    </task>
+    <task id="LOCAL-00005" summary="small changes #2">
+      <option name="closed" value="true" />
+      <created>1725801971450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725801971452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="small update">
+      <option name="closed" value="true" />
+      <created>1725869710336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725869710336</updated>
+    </task>
+    <task id="LOCAL-00007" summary="game endin' and starting locations">
+      <option name="closed" value="true" />
+      <created>1725870375381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725870375381</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix of user service">
+      <option name="closed" value="true" />
+      <created>1725871302248</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725871302248</updated>
+    </task>
+    <task id="LOCAL-00009" summary="small changes">
+      <option name="closed" value="true" />
+      <created>1725975202046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725975202046</updated>
+    </task>
+    <task id="LOCAL-00010" summary="small changes #2">
+      <option name="closed" value="true" />
+      <created>1725986617140</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725986617140</updated>
+    </task>
+    <task id="LOCAL-00011" summary="small changes of guis">
+      <option name="closed" value="true" />
+      <created>1725987286761</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725987286761</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix shop system">
+      <option name="closed" value="true" />
+      <created>1725987618975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725987618976</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,8 +306,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="everything" />
     <MESSAGE value="feat: modes (sorry, but we will use it)" />
+    <MESSAGE value="feat: inject system" />
+    <MESSAGE value="small update" />
+    <MESSAGE value="game endin' and starting locations" />
+    <MESSAGE value="fix of user service" />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="small changes #2" />
+    <MESSAGE value="small changes of guis" />
+    <MESSAGE value="fix shop system" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix shop system" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
