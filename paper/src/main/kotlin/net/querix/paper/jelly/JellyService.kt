@@ -11,6 +11,8 @@ interface JellyService {
     fun disableWeatherChange()
     fun disableTimeChange(time: Int)
     fun disableWorldChange()
+    fun registerSelectors()
+    fun disableSystemNotifications()
 
     fun registerProfile()
     fun registerShops()

@@ -2,13 +2,14 @@ package net.querix.api.util
 
 import net.querix.api.language.Language
 
-enum class NumberInit {
+enum class NumberUnit {
     COINS,
     CRYSTALS,
 
     SECONDS,
     MINUTES,
     HOURS,
+
     DAYS,
     WEEKS,
     MONTHS,

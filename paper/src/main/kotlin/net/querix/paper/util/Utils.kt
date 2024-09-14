@@ -53,9 +53,3 @@ inline fun requireMainThread(operation: String) {
     require(isPrimaryThread) { "Operation '$operation' must be called from the main thread!" }
 }
 
-fun randomString(length: Int) : String {
-    val allowedChars = ('A'..'Z') + ('a'..'z') + ('0'..'9')
-    return (1..length)
-        .map { allowedChars.random() }
-        .joinToString("")
-}

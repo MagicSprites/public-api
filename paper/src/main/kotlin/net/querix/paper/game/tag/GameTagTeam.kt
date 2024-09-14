@@ -2,7 +2,7 @@ package net.querix.paper.game.tag
 
 import net.querix.api.util.inject
 import net.querix.paper.protocol.team.FakeTeamService
-import net.querix.paper.utils.randomString
+import net.querix.api.util.randomString
 import org.bukkit.entity.Player
 
 val tagTeams: MutableSet<GameTagTeam> = mutableSetOf()
