@@ -1,5 +1,7 @@
 package net.querix.paper.extension
 
+import net.kyori.adventure.text.Component
+import net.querix.api.language.lang
 import net.querix.api.server.ServerService
 import net.querix.api.server.mode.ServerMode
 import net.querix.api.server.mode.ServerSubmode
@@ -29,6 +31,17 @@ fun Player.reset(mode: GameMode) {
     clearActivePotionEffects()
 }
 
+fun Player.msg(message: String) {
+    sendMessage(Component.text(message))
+}
+
+fun Player.sendMessage(message: String) {
+    sendMessage(Component.text(message))
+}
+
+fun Player.sendLangMessage(key: String) {
+    sendMessage(lang(key, this))
+}
 
 fun Player.createDefaultTeam() {
     val user = user()
