@@ -2,6 +2,8 @@ package net.querix.velocity.ext
 
 import com.velocitypowered.api.proxy.Player
 import com.velocitypowered.api.proxy.ProxyServer
+import net.kyori.adventure.text.Component
+import net.querix.api.language.lang
 import net.querix.api.server.ServerService
 import net.querix.api.server.mode.ServerMode
 import net.querix.api.server.mode.ServerSubmode
@@ -20,6 +22,18 @@ fun User.velocity() : Player {
 
 fun Player.redirect(prefixOrName: String) {
     user().redirect(prefixOrName)
+}
+
+fun Player.msg(message: String) {
+    sendMessage(Component.text(message))
+}
+
+fun Player.sendMessage(message: String) {
+    sendMessage(Component.text(message))
+}
+
+fun Player.sendLangMessage(key: String) {
+    sendMessage(Component.text(lang(key, this)))
 }
 
 fun Player.redirect(serverMode: ServerMode, searchMode: ServerSearchMode) {

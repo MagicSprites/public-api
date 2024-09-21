@@ -35,10 +35,6 @@ fun Player.msg(message: String) {
     sendMessage(Component.text(message))
 }
 
-fun Player.sendMessage(message: String) {
-    sendMessage(Component.text(message))
-}
-
 fun Player.sendLangMessage(key: String) {
     sendMessage(lang(key, this))
 }
