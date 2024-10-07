@@ -1,6 +1,7 @@
 package net.querix.paper.gui.impl
 
 import net.querix.paper.gui.Menu
+import net.querix.paper.gui.guiMap
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 import org.bukkit.inventory.Inventory
@@ -22,5 +23,6 @@ class ChestGui(override val title: String, rows: Int) : Menu {
 
     override fun open(player: Player) {
         player.openInventory(inventory)
+        guiMap[player] = this
     }
 }

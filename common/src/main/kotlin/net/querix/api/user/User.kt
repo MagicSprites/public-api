@@ -46,4 +46,7 @@ interface User {
     fun redirect(prefix: String)
 
     fun weight(): Int
+
+    fun setting(setting: Setting, value: Boolean)
+    fun setting(setting: Setting): Boolean
 }

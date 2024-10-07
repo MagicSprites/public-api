@@ -9,7 +9,6 @@ val guiMap = mutableMapOf<Player, Menu>()
 fun chestMenu(payer: Player, title: String, rows: Int, init: ChestGui.() -> Unit): ChestGui {
     val gui = ChestGui(title, rows)
     gui.init()
-    guiMap[payer] = gui
     return gui
 }
 
@@ -18,6 +17,5 @@ fun chestMenu(payer: Player, title: String, rows: Int, init: Consumer<ChestGui>)
 
     init.accept(gui)
 
-    guiMap[payer] = gui
     return gui
 }
