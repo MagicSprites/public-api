@@ -9,7 +9,7 @@ enum class Setting (
     DONATE_CHAT(false),
     GLOWING(true, "light"),
     FLY(true, "mercury"),
-
-    FRIEND_INVITE(true),
-    PARTY_INVITE(true),
+    CHAT_VISIBILITY(true),
+//    FRIEND_INVITE(true),
+//    PARTY_INVITE(true),
 }

@@ -8,7 +8,7 @@ import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack
 import org.bukkit.util.Consumer
 
-class ChestGui(override val title: String, rows: Int) : Menu {
+open class ChestGui(override val title: String, rows: Int) : Menu {
     override val inventory: Inventory = Bukkit.createInventory(null, rows * 9, title)
     override val itemActionMap: MutableMap<Int, Consumer<Player>> = mutableMapOf()
 
