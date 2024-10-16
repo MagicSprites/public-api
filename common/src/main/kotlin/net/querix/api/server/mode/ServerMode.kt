@@ -49,6 +49,11 @@ enum class ServerMode(val modeType: ModeType, val displayName: String, vararg va
         ServerSubmode("PigWars Quad", "pwq")
     ),
 
+    FLAPPY_BIRD(
+        ModeType.GAME, "Flappy Bird",
+        ServerSubmode("Flappy Bird", "flappybird"),
+    ),
+
     DUELS (
         ModeType.GAME, "Duels",
 
