@@ -14,4 +14,6 @@ interface UserService {
      * if the user is not online
      */
     fun getUserData(username: String, loader: Consumer<User>)
+
+    fun findAllUsers(): List<String>
 }
