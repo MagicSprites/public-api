@@ -43,6 +43,8 @@ interface User {
     fun skin(): String
     fun skin(skin: String)
 
+    fun skinModel(): Skin
+
     fun redirect(prefix: String)
 
     fun weight(): Int
