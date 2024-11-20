@@ -1,4 +1,4 @@
-package net.querix.api.user
+package net.querix.api.user.objects
 
 enum class Setting (
     val defaultValue: Boolean,

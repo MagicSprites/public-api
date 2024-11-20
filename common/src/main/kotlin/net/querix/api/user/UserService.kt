@@ -16,6 +16,5 @@ interface UserService {
     fun getUserData(username: String, loader: Consumer<User>)
 
     fun findAllUsersNames(): List<String>
-    fun findAllOfflineUsers(): List<User>
 
 }

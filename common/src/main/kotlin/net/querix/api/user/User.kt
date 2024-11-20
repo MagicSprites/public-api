@@ -1,6 +1,8 @@
 package net.querix.api.user
 
 import net.querix.api.language.Language
+import net.querix.api.user.objects.Setting
+import net.querix.api.user.objects.Skin
 import java.util.UUID
 
 interface User {
@@ -42,6 +44,9 @@ interface User {
 
     fun skin(): String
     fun skin(skin: String)
+
+    fun playedTime(): Long
+    fun addPlayedTime(time: Long)
 
     fun skinModel(): Skin
 
